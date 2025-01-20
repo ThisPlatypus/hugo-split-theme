@@ -37,7 +37,4 @@
   <link rel="stylesheet" href="{{ "css/style.css" | absURL }}" type="text/css" media="screen" />
 {{ end }}
 
-<!-- Google Analytics -->
-{{ if and (.Site.Config.Services.GoogleAnalytics.ID) (not hugo.IsDevelopment) }}
-  {{ template "_internal/google_analytics.html" . }}
-{{ end }}
+
